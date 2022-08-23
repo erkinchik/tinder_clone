@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4caef172-eeae-4f32-9905-d0d4af33e94b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/erkin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/StackNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/LoginScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/LoginScreen.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +85,8 @@
       <workItem from="1661167604856" duration="6745000" />
       <workItem from="1661235103846" duration="1919000" />
       <workItem from="1661235169948" duration="1636000" />
-      <workItem from="1661236825701" duration="2210000" />
+      <workItem from="1661236825701" duration="6158000" />
+      <workItem from="1661247405450" duration="2985000" />
     </task>
     <servers />
   </component>
@@ -110,6 +114,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="489" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1661168498205" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1661249585430">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1661249585430" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1661235204450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

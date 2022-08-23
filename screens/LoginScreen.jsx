@@ -11,6 +11,8 @@ import useAuth from "../hooks/useAuth";
 import { useNavigation } from "@react-navigation/core";
 import tw from "tailwind-rn";
 
+
+
 const LoginScreen = () => {
   const { signInWithGoogle, loading } = useAuth();
   const navigation = useNavigation();

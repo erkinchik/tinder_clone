@@ -10,6 +10,7 @@ import {
 import useAuth from "../hooks/useAuth";
 import { useNavigation } from "@react-navigation/core";
 import tw from "tailwind-rn";
+import {SafeAreaView} from "react-native-safe-area-context";
 
 
 
@@ -23,7 +24,7 @@ const LoginScreen = () => {
     });
   }, []);
   return (
-    <View style={tw("flex-1 ")}>
+    <SafeAreaView style={tw("flex-1 ")}>
       <ImageBackground
         resizeMode="cover"
         style={tw("flex-1")}
@@ -41,7 +42,7 @@ const LoginScreen = () => {
           </Text>
         </TouchableOpacity>
       </ImageBackground>
-    </View>
+    </SafeAreaView>
   );
 };
 

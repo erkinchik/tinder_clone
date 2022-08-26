@@ -1,7 +1,14 @@
 import { useNavigation } from "@react-navigation/core";
 import React, { useLayoutEffect } from "react";
 
-import { Ionicons, AntDesign } from "@expo/vector-icons";
+import {
+  Ionicons,
+  AntDesign,
+  Feather,
+  MaterialIcons,
+  Entypo,
+  FontAwesome,
+} from "@expo/vector-icons";
 
 import {
   View,
@@ -10,11 +17,11 @@ import {
   SafeAreaView,
   TouchableOpacity,
   Image,
+  StyleSheet,
 } from "react-native";
 import useAuth from "../hooks/useAuth";
 import tw from "tailwind-rn";
 import erkin from "../media/photos/erkin.png";
-import { Entypo } from "@expo/vector-icons";
 import Swiper from "react-native-deck-swiper";
 // import {React} from "../media/icons/Tinder_(app)-Flame-Logo.wine.svg";
 
@@ -26,6 +33,7 @@ const DATA = [
     occupation: "dev",
     photoURL: erkin,
     age: 18,
+    location: "3 км от вас",
   },
   {
     id: 2,
@@ -34,6 +42,7 @@ const DATA = [
     occupation: "dev",
     photoURL: erkin,
     age: 18,
+    location: "3 км от вас",
   },
   {
     id: 3,
@@ -42,6 +51,7 @@ const DATA = [
     occupation: "dev",
     photoURL: erkin,
     age: 18,
+    location: "3 км от вас",
   },
   {
     id: 4,
@@ -50,6 +60,7 @@ const DATA = [
     occupation: "dev",
     photoURL: erkin,
     age: 18,
+    location: "3 км от вас",
   },
 ];
 
@@ -89,6 +100,41 @@ const HomeScreen = () => {
           containerStyle={{ backgroundColor: "transparent" }}
           cards={DATA}
           animateCardOpacity
+          stackSize={3}
+          cardIndex={0}
+          // onSwipedTop={}
+          overlayLabels={{
+            left: {
+              title: "NOPE",
+              style: {
+                label: {
+                  color: "#FF5864",
+                  textAlign: "center",
+                },
+              },
+            },
+            right: {
+              title: "LIKE",
+              style: {
+                label: {
+                  color: "#4ded30",
+                  textAlign: "center",
+                  alignItems: "flex-end",
+                },
+              },
+            },
+            top: {
+              title: "SUPER LIKE",
+              style: {
+                label: {
+                  color: "#1DB5CE",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                  textAlign: "center",
+                },
+              },
+            },
+          }}
           // verticalSwipe={false}
           renderCard={(card) => (
             <View key={card.id} style={tw("bg-red-500 h-3/4 rounded-xl")}>
@@ -96,9 +142,42 @@ const HomeScreen = () => {
                 style={tw("absolute top-0 h-full w-full rounded-xl")}
                 source={card.photoURL}
               />
-              <View style={tw("bg-transparent w-full h-20  absolute bottom-0")}>
-                <View style={tw("p-10")}>
-                  <Text>{card.firstName}</Text>
+              <View
+                style={[
+                  styles.cardShadow,
+                  tw(
+                    "absolute bottom-0 w-full flex-col justify-between h-20 px-6 py-2 rounded-b-xl bg-transparent"
+                  ),
+                ]}
+              >
+                <View style={tw("flex flex-row items-center ")}>
+                  <Text style={tw("text-white font-bold text-xl")}>
+                    {card.firstName}
+                  </Text>
+                  <Text style={tw("text-white text-lg ml-1")}>{card.age}</Text>
+                  <MaterialIcons
+                    style={tw("ml-2")}
+                    name="info"
+                    size={14}
+                    color="white"
+                  />
+                </View>
+                <View style={tw("flex flex-row items-center")}>
+                  <Feather name="map-pin" size={14} color="white" />
+                  <Text style={tw("text-white text-base ml-1")}>
+                    {card.location}
+                  </Text>
+                </View>
+                <View style={tw("flex flex-row items-center")}>
+                  <View>
+                    <Entypo name="cross" size={24} color="#FF5864" />
+                  </View>
+                  <View>
+                    <FontAwesome name="star" size={24} color="#4ded30" />
+                  </View>
+                  <View>
+                    <FontAwesome name="heart" size={24} color="green" />
+                  </View>
                 </View>
               </View>
             </View>
@@ -110,3 +189,16 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
+const styles = StyleSheet.create({
+  cardShadow: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+    elevation: 2,
+  },
+});

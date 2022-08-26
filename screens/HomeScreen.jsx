@@ -109,7 +109,12 @@ const HomeScreen = () => {
               style: {
                 label: {
                   color: "#FF5864",
+                  position: "absolute",
                   textAlign: "center",
+                  top: "30%",
+                  left: "30%",
+                  alignItems: "flex-end",
+                  justifyContent: "center",
                 },
               },
             },
@@ -117,9 +122,13 @@ const HomeScreen = () => {
               title: "LIKE",
               style: {
                 label: {
-                  color: "#4ded30",
+                  color: "#4ade80",
+                  position: "absolute",
                   textAlign: "center",
+                  top: "30%",
+                  left: "30%",
                   alignItems: "flex-end",
+                  justifyContent: "center",
                 },
               },
             },
@@ -128,9 +137,26 @@ const HomeScreen = () => {
               style: {
                 label: {
                   color: "#1DB5CE",
-                  flexDirection: "column",
-                  alignItems: "flex-end",
+                  position: "absolute",
                   textAlign: "center",
+                  top: "30%",
+                  left: "5%",
+                  alignItems: "flex-end",
+                  justifyContent: "center",
+                },
+              },
+            },
+            bottom: {
+              title: "NOPE",
+              style: {
+                label: {
+                  color: "#FF5864",
+                  position: "absolute",
+                  textAlign: "center",
+                  top: "30%",
+                  left: "30%",
+                  alignItems: "flex-end",
+                  justifyContent: "center",
                 },
               },
             },
@@ -146,7 +172,7 @@ const HomeScreen = () => {
                 style={[
                   styles.cardShadow,
                   tw(
-                    "absolute bottom-0 w-full flex-col justify-between h-20 px-6 py-2 rounded-b-xl bg-transparent"
+                    "absolute bottom-0 w-full flex-col h-40 px-6 py-2 rounded-b-xl bg-transparent"
                   ),
                 ]}
               >
@@ -162,21 +188,33 @@ const HomeScreen = () => {
                     color="white"
                   />
                 </View>
-                <View style={tw("flex flex-row items-center")}>
+                <View style={tw("flex flex-row items-center mb-3")}>
                   <Feather name="map-pin" size={14} color="white" />
                   <Text style={tw("text-white text-base ml-1")}>
                     {card.location}
                   </Text>
                 </View>
-                <View style={tw("flex flex-row items-center")}>
-                  <View>
+                <View style={tw("flex flex-row items-center justify-between")}>
+                  <View
+                    style={tw(
+                      "border-solid border-2 border-red-400 rounded-full h-14 w-14 justify-center items-center"
+                    )}
+                  >
                     <Entypo name="cross" size={24} color="#FF5864" />
                   </View>
-                  <View>
-                    <FontAwesome name="star" size={24} color="#4ded30" />
+                  <View
+                    style={tw(
+                      "border-solid border-2 border-blue-400 rounded-full h-12 w-12 justify-center items-center"
+                    )}
+                  >
+                    <FontAwesome name="star" size={18} color="#1DB5CE" />
                   </View>
-                  <View>
-                    <FontAwesome name="heart" size={24} color="green" />
+                  <View
+                    style={tw(
+                      "border-solid border-2 border-green-400 rounded-full h-14 w-14 justify-center items-center"
+                    )}
+                  >
+                    <FontAwesome name="heart" size={24} color="#4ade80" />
                   </View>
                 </View>
               </View>

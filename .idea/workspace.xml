@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4caef172-eeae-4f32-9905-d0d4af33e94b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/erkin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/erkin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
       <workItem from="1661260222849" duration="48000" />
       <workItem from="1661346889212" duration="708000" />
       <workItem from="1661433483878" duration="7796000" />
-      <workItem from="1661503674873" duration="3711000" />
+      <workItem from="1661503674873" duration="6991000" />
     </task>
     <servers />
   </component>

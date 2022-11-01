@@ -1,5 +1,5 @@
 import { useNavigation } from "@react-navigation/core";
-import React, { useLayoutEffect } from "react";
+import React, { useLayoutEffect, useRef } from "react";
 
 import {
   Ionicons,
@@ -67,6 +67,7 @@ const DATA = [
 const HomeScreen = () => {
   const navigation = useNavigation();
   const { logOut, user } = useAuth();
+  const swipeRef = useRef(null);
 
   // useLayoutEffect(() => {
   //   navigation.setOptions({
@@ -83,7 +84,7 @@ const HomeScreen = () => {
           />
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("Modal")}>
           <Image
             style={tw("h-14 w-14")}
             source={require("../media/icons/tinder-icon.png")}
@@ -97,6 +98,7 @@ const HomeScreen = () => {
 
       <View style={tw("flex-1 -mt-6")}>
         <Swiper
+          ref={swipeRef}
           containerStyle={{ backgroundColor: "transparent" }}
           cards={DATA}
           animateCardOpacity

@@ -21,10 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4caef172-eeae-4f32-9905-d0d4af33e94b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/StackNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/photos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\erkin\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -64,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\erkin\WebstormProjects\tinderClone\media\photos" />
       <recent name="C:\Users\erkin\WebstormProjects\tinderClone\media\icons" />
+      <recent name="C:\Users\erkin\WebstormProjects\tinderClone\media\photos" />
       <recent name="C:\Users\erkin\WebstormProjects\tinderClone" />
     </key>
   </component>
@@ -88,7 +86,8 @@
       <workItem from="1661260222849" duration="48000" />
       <workItem from="1661346889212" duration="708000" />
       <workItem from="1661433483878" duration="7796000" />
-      <workItem from="1661503674873" duration="6991000" />
+      <workItem from="1661503674873" duration="7935000" />
+      <workItem from="1667284039859" duration="3097000" />
     </task>
     <servers />
   </component>
@@ -124,14 +123,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1661235204450" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1661260261473">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1661511780558">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1661260261473" />
-    <state x="478" y="167" width="579" height="530" key="find.popup" timestamp="1661174210454">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1661511780558" />
+    <state x="478" y="167" width="579" height="530" key="find.popup" timestamp="1667284900752">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="478" y="167" width="579" height="530" key="find.popup/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1661174210454" />
+    <state x="478" y="167" width="579" height="530" key="find.popup/0.0.1536.864/-1366.0.1366.768@0.0.1536.864" timestamp="1667284900752" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1661164259487">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
